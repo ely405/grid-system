@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*headet*/
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  width: 100%;
+  background-color: #F7B617;
+}
+
+nav *{
+  display: flex;
+  margin: 0.3rem;
+}
+
+a{
+  text-decoration: none;
+  font-size: 2rem;
+}
+a:hover{
+  color: white;
+}
+
+.c-darkgray{
+  background-color: #77787D;
+}
+.c-l-gray{
+  background-color: #DCDDDF;
+}
+.h-20v{
+  height: 20vw;
+}
+
+.h-40v{
+  height: 40vw;
+}
+#grid-1{
+  margin-top: 5rem;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 40px auto;
+  border: 2px solid #77787D;
+}
+.row::before, .row::after{
+  content: " ";
+  display: table;
+}
+.row::after{
+  clear: both;
+}
+[class*="col-"]{
+  min-height: 7px;
+  padding: 12px;
+  float: left;
+}
+.col-1{
+  width: 8.33333%;
+}
+.col-2{
+  width: 16.6666%;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33.3333%;
+}
+.col-5{
+  width: 41.666667%;
+}
+.col-6{
+  width: 50%;
+}
+.col-7{
+  width: 58.333%;
+}
+.col-8{
+  width: 66.666667%;
+}
+.col-9{
+  width: 75%;
+}
+.col-10{
+  width: 83.333%;
+}
+.col-11{
+  width: 91.666%;
+}
+.col-12{
+  width: 100%;
+}
